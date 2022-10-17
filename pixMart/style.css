@@ -1,0 +1,718 @@
+/* @font-face {
+    font-family: quick;
+    src: url("fonts/Quicksand_Bold.otf");
+} */
+
+@font-face {
+    font-family: honey;
+    src: url("fonts/HoneyScript-Light.ttf");
+}
+
+* {
+    font-family: "quick";
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.mass {
+    color: tomato;
+    background-color: rgba(94, 32, 94, 0.879);
+}
+
+.main-background {
+    background-image: url("recourses/6 Flat Background Design Landing Page PNG SVG and Adobe XD Cool.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.image {
+    height: 100px;
+    background-image: url("recourses/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title1 {
+    font-family: "honey";
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.background1 {
+    background-image: url("recourses/logo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.label1 {
+    font-size: 14px;
+}
+
+.label2 {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* .cticon {
+    background-image: url("recourses/cartico.svg");
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+} */
+
+.hr1 {
+    border: solid silver 3px;
+}
+
+.logologo {
+    height: 80px;
+    background-image: url("recourses/logo.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.searchbutton {
+    height: 48px;
+}
+
+.link1 {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.posterimg1 {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.posttit {
+    color: gray;
+    margin-right: 50px;
+}
+
+.posttex {
+    color: gray;
+    margin-bottom: 200px;
+    margin-right: 50px;
+}
+
+.link2 {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.link3 {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.link3:hover {
+    text-decoration: underline;
+}
+
+.cardTopImg {
+    height: 25vh;
+}
+
+.lbl1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pm1 {
+    height: 50px;
+    background-image: url("recourses/add product page resources/payment method images/paypal_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pm2 {
+    height: 50px;
+    background-image: url("recourses/add product page resources/payment method images/visa_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pm3 {
+    height: 50px;
+    background-image: url("recourses/add product page resources/payment method images/mastercard_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pm4 {
+    height: 50px;
+    background-image: url("recourses/add product page resources/payment method images/american_express_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.productimg {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: rgb(53, 94, 232);
+    border-style: solid;
+}
+
+.side {
+    float: left;
+    width: 15%;
+}
+
+.bar5 {
+    width: 100%;
+    height: 20px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.selogo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("recourses/logo.svg");
+    height: 100px;
+}
+
+.sb1 {
+    width: 100%;
+}
+
+.singleproduct {
+    padding-top: 65px;
+    padding-bottom: 145px;
+    background-color: #e5e5e5;
+    padding: 20px;
+}
+
+.productqty {
+    width: 105px;
+    height: 50px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    margin-right: 22px;
+    margin-bottom: 11px;
+}
+
+.qty-buttons {
+    height: 100%;
+    width: 30px;
+    border: solid 3px #e5e5e5;
+    top: 0;
+    right: 0;
+}
+
+.qty-inc {
+    padding-bottom: 2px;
+    border-top-right-radius: 5px;
+}
+
+.qty-dec {
+    padding-bottom: 2px;
+    border-bottom-right-radius: 5px;
+}
+
+.qty-inc,
+.qty-dec {
+    width: 100%;
+    height: 50%;
+    cursor: pointer
+}
+
+.imimim {
+    height: 440px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imim {
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.EmptyView {
+    height: 400px;
+    background-image: url("recourses/Heart.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.emptycart {
+    height: 400px;
+    background-image: url("recourses/cart.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.cartqty {
+    width: 100px;
+    height: 40px;
+    outline: none;
+}
+
+.invoiceheaderimg {
+    height: 80px;
+    background-image: url("recourses/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.masage-box,
+.chatbox {
+    height: 510px;
+    overflow-y: scroll;
+}
+
+.tol {
+    width: 50%;
+    position: relative;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.441);
+}
+
+.pa {
+    position: absolute;
+}
+
+.addnewimg {
+    height: 50px;
+    background-image: url("recourses/addnew.svg ");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 50%;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: linear-gradient(to left bottom, rgb(232, 152, 232) 0%, white 100%);
+    overflow: hidden;
+}
+
+.app {
+    position: relative;
+    min-width: 80%;
+    height: 600px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.app__bgimg {
+    position: absolute;
+    top: 0;
+    left: -2.5%;
+    width: 105%;
+    height: 100%;
+    transition: transform 3.5s 770ms;
+}
+
+.app__bgimg-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.app__bgimg-image--1 {
+    background: url("recourses/slider images/shopping.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.app__bgimg-image--2 {
+    background: url("recourses/slider images/shopping2.jpg") center center no-repeat;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0ms 1300ms;
+    will-change: opacity;
+}
+
+.app__text {
+    position: absolute;
+    right: 165px;
+    top: 150px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.app__text-line {
+    transition: transform 1500ms 400ms, opacity 750ms 500ms;
+    will-change: transform, opacity;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.app__text-line--4 {
+    transition: transform 1500ms 1500ms, opacity 1500ms 1500ms;
+}
+
+.app__text-line--3 {
+    transition: transform 1500ms 1600ms, opacity 1500ms 1750ms;
+}
+
+.app__text-line--2 {
+    transition: transform 1500ms 1700ms, opacity 1500ms 2000ms;
+}
+
+.app__text-line--1 {
+    transition: transform 1500ms 1800ms, opacity 1500ms 2250ms;
+}
+
+.app__text-line--4 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #0A101D;
+}
+
+.app__text-line--3 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.app__text-line--2 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0099CC;
+}
+
+.app__text-line--1 {
+    margin-top: 15px;
+}
+
+.app__text-line--1 img {
+    width: 50px;
+}
+
+.app__text--1 .app__text-line {
+    transform: translate3d(0, -125px, 0);
+    opacity: 0;
+}
+
+.app__text--2 {
+    right: initial;
+    top: 250px;
+    left: 80px;
+    z-index: -1;
+    transition: z-index 1500ms;
+}
+
+.app__text--2 .app__text-line--4 {
+    opacity: 0;
+    transition: transform 1500ms -75ms, opacity 400ms 125ms;
+}
+
+.app__text--2 .app__text-line--3 {
+    opacity: 0;
+    transition: transform 1500ms 0ms, opacity 400ms 200ms;
+}
+
+.app__text--2 .app__text-line--2 {
+    opacity: 0;
+    transition: transform 1500ms 75ms, opacity 400ms 275ms;
+}
+
+.app__text--2 .app__text-line--1 {
+    opacity: 0;
+    transition: transform 1500ms 150ms, opacity 400ms 350ms;
+}
+
+.app__img {
+    position: absolute;
+    transform: translate3d(0, -750px, 0);
+    width: 100%;
+    height: 100%;
+    transition: transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
+    will-change: transform;
+}
+
+.app__img img {
+    min-width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.initial .app__img {
+    transform: translate3d(0, 0, 0);
+}
+
+.initial .app__text--1 .app__text-line--1 {
+    transform: translate3d(0, 0, 0);
+    transition: transform 1500ms 1400ms, opacity 400ms 1600ms;
+    opacity: 1;
+}
+
+.initial .app__text--1 .app__text-line--2 {
+    transform: translate3d(0, 0, 0);
+    transition: transform 1500ms 1475ms, opacity 400ms 1675ms;
+    opacity: 1;
+}
+
+.initial .app__text--1 .app__text-line--3 {
+    transform: translate3d(0, 0, 0);
+    transition: transform 1500ms 1550ms, opacity 400ms 1750ms;
+    opacity: 1;
+}
+
+.initial .app__text--1 .app__text-line--4 {
+    transform: translate3d(0, 0, 0);
+    transition: transform 1500ms 1625ms, opacity 400ms 1825ms;
+    opacity: 1;
+}
+
+.active .app__bgimg {
+    transform: translate3d(10px, 0, 0) scale(1.05);
+    transition: transform 5s 850ms ease-in-out;
+}
+
+.active .app__bgimg .app__bgimg-image--2 {
+    opacity: 1;
+    transition: opacity 0ms 1500ms;
+}
+
+.active .app__img {
+    transition: transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
+    transform: translate3d(0, -1410px, 0);
+}
+
+.active .app__text--1 {
+    z-index: -1;
+    transition: z-index 0ms 1500ms;
+}
+
+.active .app__text--1 .app__text-line--1 {
+    transform: translate3d(0, -125px, 0);
+    transition: transform 1500ms 300ms, opacity 400ms 500ms;
+    opacity: 0;
+}
+
+.active .app__text--1 .app__text-line--2 {
+    transform: translate3d(0, -125px, 0);
+    transition: transform 1500ms 375ms, opacity 400ms 575ms;
+    opacity: 0;
+}
+
+.active .app__text--1 .app__text-line--3 {
+    transform: translate3d(0, -125px, 0);
+    transition: transform 1500ms 450ms, opacity 400ms 650ms;
+    opacity: 0;
+}
+
+.active .app__text--1 .app__text-line--4 {
+    transform: translate3d(0, -125px, 0);
+    transition: transform 1500ms 525ms, opacity 400ms 725ms;
+    opacity: 0;
+}
+
+.active .app__text--2 {
+    z-index: 1;
+}
+
+.active .app__text--2 .app__text-line--1 {
+    transform: translate3d(0, -125px, 0);
+    transition: transform 2500ms 1100ms, opacity 1300ms 1300ms;
+    opacity: 1;
+}
+
+.active .app__text--2 .app__text-line--2 {
+    transform: translate3d(0, -125px, 0);
+    transition: transform 2500ms 1175ms, opacity 1300ms 1575ms;
+    opacity: 1;
+}
+
+.active .app__text--2 .app__text-line--3 {
+    transform: translate3d(0, -125px, 0);
+    transition: transform 2500ms 1250ms, opacity 1300ms 1850ms;
+    opacity: 1;
+}
+
+.active .app__text--2 .app__text-line--4 {
+    transform: translate3d(0, -125px, 0);
+    transition: transform 2500ms 1325ms, opacity 1300ms 2125ms;
+    opacity: 1;
+}
+
+.mouse {
+    position: relative;
+    margin-right: 20px;
+    min-width: 50px;
+    height: 80px;
+    border-radius: 30px;
+    border: 5px solid rgba(255, 255, 255, 0.8);
+}
+
+.mouse:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-animation: scroll 1s infinite alternate;
+    animation: scroll 1s infinite alternate;
+}
+
+@-webkit-keyframes scroll {
+    100% {
+        transform: translate(-50%, 15px);
+    }
+}
+
+@keyframes scroll {
+    100% {
+        transform: translate(-50%, 15px);
+    }
+}
+
+.pages {
+    margin-left: 20px;
+}
+
+.pages__list {
+    list-style-type: none;
+}
+
+.pages__item {
+    position: relative;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+
+.pages__item:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0, 0);
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0;
+    transition: 500ms;
+}
+
+.pages__item:hover:after {
+    transform: translate(-50%, -50%) scale(1, 1);
+    opacity: 1;
+}
+
+.page__item-active:after {
+    transform: translate(-50%, -50%) scale(1, 1);
+    opacity: 1;
+}
+
+.icon-link {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    width: 50px;
+}
+
+.icon-link img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.icon-link--twitter {
+    left: auto;
+    right: 5px;
+}
+
+.bbb:hover {
+    background-color: purple;
+    border: solid 0.1px white;
+    color: white;
+}
+
+.bgbg {
+    background-image: url("recourses/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.load {
+    background-image: url("recourses/Pinterest .gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
